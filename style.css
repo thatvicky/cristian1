@@ -13,12 +13,16 @@ header {
     background-color: #ffffff; /* Background color */
     height: 70px;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content:center; /* mover los elementos del header */
     padding: 20px;
     box-sizing: border-box;
 }
 
+.logo {
+    max-width: 100%; /* Permite que el logo se ajuste al tamaño del contenedor */
+}
 
 nav ul {
     list-style:none;
@@ -135,4 +139,27 @@ nav ul li a:hover {
         display: block; /* Show the toggle button */
         cursor: pointer;
     }
+}
+
+#footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.footer-list {
+    margin-top: 10px;
+    
+}
+
+.footer-link {
+    color: #6c757d;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
